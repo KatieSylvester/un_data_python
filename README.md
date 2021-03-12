@@ -1,6 +1,6 @@
 ## UN GDP and Internet Usage
 
-![UNlogo](../main/images/UNlogo.png)
+![UNlogo](../main/Images/UNlogo.png)
 
 <br>
 <br>
@@ -15,7 +15,7 @@
 <br>
 
 ## <a name="general-information"></a>General Information
-We were tasked with exploring a database from the United Nations including country's GDP per capita and the percent of the population's internet access. 
+The goal of this individual project was to explore data from the United Nations, specifically looking at GDP per capita and the percent of the population's internet access across a ten year timeframe (2004-2014). 
 <br>
 <br>
 
