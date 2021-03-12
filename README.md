@@ -28,6 +28,7 @@ Project is created with:
 <br>
 
 ## <a name="files"></a>Files in this Repository
+All python scripts are in the UN-data-gdp-internet-usage.ipynb file in the notebooks folder. 
 <br>
 <br>
 
