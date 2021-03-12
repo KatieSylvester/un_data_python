@@ -1,34 +1,37 @@
-#### A guided exploration of UN data (Gross Domestic Product and Internet Usage)
+## UN GDP and Internet Usage
 
+![UNlogo](../main/images/UNlogo.png)
+<br>
+<br>
 
-1. Create a `data` folder in your local project repository.  
+## Table of Contents
+* [General Information](#general-information)
+* [Technologies](#technologies)
+* [Files in this Repository](#files)
+* [Data Exploration Questions](#data)
+* 
+<br>
+<br>
 
-2. Download these two CSV files and place them in the data folder:
+## <a name="general-information"></a>General Information
+We were tasked with exploring a database from the United Nations including country's GDP per capita and the percent of the population's internet access. 
+<br>
+<br>
 
-    a.	Gross Domestic Product (GDP) per capita http://data.un.org/Data.aspx?d=WDI&f=Indicator_Code%3aNY.GDP.PCAP.PP.KD **DO NOT APPLY ANY FILTERS**
-     - rename the file to `gdp_percapita.csv`
-     - open it with a text editor (**not excel**) and take a look
+## <a name="technologies"></a>Technologies
+Project is created with:
+* Python 
+* Packages: pandas, numpy, matplotlib, seaborn
+* Jupyter Notebook
+<br>
+<br>
 
-    b.	Percentage of Individuals using the Internet http://data.un.org/Data.aspx?d=ITU&f=ind1Code%3aI99H  **DO NOT APPLY ANY FILTERS**
-     - rename the file to `internet_use.csv`
-     - open it with a text editor (**not excel**) and take a look
+## <a name="files"></a>Files in this Repository
+<br>
+<br>
 
-2.	Launch a Jupyter Notebook. 
- - _*IMPORTANT:  You are likely to get errors along the way. When you do, read the errors to try to understand what is happening and how to correct it.*_
-  - Use markdown cells to record your answers to any questions asked in this exercise. On the menu bar, you can toggle the cell type from `Code` to `Markdown`.
-
-3.	Import the required packages with their customary aliases as follows:
-
-    `import pandas as pd`   
-    `import numpy as np`  
-    `import matplotlib.pyplot as plt`  
-    `import seaborn as sns`
-
-4.	Use the `%matplotlib inline` magic command so that your plots show in the notebook _without_ having to call `plt.show()` every time.
-5.	Using the pandas `read_csv()` method, read the GDP dataset into your notebook as a DataFrame called `gdp_df`. Take a look at the first 6 rows.
-6. Repeat for the internet use dataset. Call this DataFrame `internet_df`. Take a look at the first six rows.
-98. Look at the shape of each DataFrame - how many rows? How many columns?
-6.	Take a look at the datatypes for the columns in each DataFrame.
+## <a name="data"></a>Data Exploration Questions
+\6.	Take a look at the datatypes for the columns in each DataFrame.
 99. Take a look at the last 10 rows of each DataFrame in turn.
 7.	Drop the `value footnotes` column from both DataFrames. Check that this worked as expected.
 8.	Change the columns for the GDP Per Capita DataFrame to ‘Country’, ‘Year’, and ‘GDP_Per_Capita’.
