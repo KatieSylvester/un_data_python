@@ -11,7 +11,7 @@
 <br>
 
 ## <a name="general-information"></a>General Information
-The goal of this individual project was to explore data from the United Nations, specifically looking at GDP per capita and the percent of the population's internet access across a ten year timeframe (2004-2014). 
+The goal of this individual project was to explore data from the United Nations, specifically looking at GDP per capita and the percent of the population's internet access across a ten year timeframe (2004-2014).  The two datasets were merged and analyzed with Python.
 <br>
 <br>
 
