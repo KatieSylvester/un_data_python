@@ -1,4 +1,4 @@
-## UN GDP and Internet Usage
+## GDP and Internet Usage
 
 ![UNlogo](../main/Images/UNlogo.png)
 
