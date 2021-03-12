@@ -28,14 +28,7 @@ All python scripts are in the UN-data-gdp-internet-usage.ipynb file in the noteb
 <br>
 
 ## <a name="data"></a>Data Exploration Questions
-* Take a look at the datatypes for the columns in each DataFrame.
-* Take a look at the last 10 rows of each DataFrame in turn.
-* Drop the `value footnotes` column from both DataFrames. Check that this worked as expected.
-* Change the columns for the GDP Per Capita DataFrame to ‘Country’, ‘Year’, and ‘GDP_Per_Capita’.
-* Change the columns for the Internet Users DataFrame to ‘Country’, ‘Year’, and ‘Internet_Users_Pct’.
-* Merge the two DataFrames to one. Merge **all rows** from each of the two DataFrames. Call the new DataFrame `gdp_and_internet_use`.
-* Look at the first five rows of your new DataFrame to confirm it merged correctly.
-* Look at the last five rows to make sure the data is clean and as expected.
+* Merge the two DataFrames to one. Merge **all rows** from each of the two DataFrames. 
 * Subset the combined DataFrame to keep only the data for 2004, 2009, and 2014. Check that this happened correctly.
 * Create three new DataFrames, one for 2004, one for 2009, and one for 2014. Give them meaningful names that aren't too long.
 * Which country had the highest percentage of internet users in 2014? What was the percentage? (Try typing the first 3 letters of your DataFrame name and hitting the tab key for auto-complete options).
