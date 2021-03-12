@@ -2,8 +2,6 @@
 
 ![UNlogo](../main/Images/UNlogo.png)
 
-<br>
-<br>
 
 ## Table of Contents
 * [General Information](#general-information)
