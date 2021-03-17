@@ -11,7 +11,7 @@
 <br>
 
 ## <a name="general-information"></a>General Information
-Data sets obtained from 
+Data sets were obtained from the United Nations Department of Economic and Social Affairs to analyze global GDP per capita and internet usage over a ten year timeframe (2004-2014).
 <br>
 <br>
 
@@ -27,4 +27,4 @@ All python scripts are in the UN-data-gdp-internet-usage.ipynb file in the noteb
 <br>
 
 ## <a name="data"></a>Analysis
-The goal of this individual project was to explore data from the United Nations, specifically looking at GDP per capita and the percent of the population's internet access across a ten year timeframe (2004-2014).  The two datasets were merged and analyzed with Python. This database was used to analyze the connection between GDP per capita and the gdp 
+The goal of this project was to explore data from the United Nations, specifically looking at GDP per capita and the percent of the population's internet access across a ten year timeframe (2004-2014).  The two datasets were merged and analyzed with Python.  It is interesting to see which countries have consistently the most and least internet usage along with their GDP per capita, and those countries that have the highest/lowest GDP per capita and their internet usage.  I also found it intriguing how the correlation between GDP per capita and internet usage has grown over time for many countries.
